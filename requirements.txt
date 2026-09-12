@@ -1,0 +1,33 @@
+# Agent Frameworks
+langchain==1.2.11
+langchain-core==1.2.18
+langgraph==1.1.0
+
+# LLM API
+openai==2.26.0
+langchain-openai==1.1.11
+
+# Machine Learning
+tensorflow==2.21.0
+scikit-learn==1.8.0
+
+# Data Processing
+numpy==2.4.3
+pandas==2.3.3
+
+# Image Processing
+opencv-python==4.13.0.92
+Pillow==12.1.1
+
+# Visualization
+matplotlib==3.10.8
+
+# Result Generation (PDF)
+reportlab==4.4.10
+
+# Utilities
+tqdm==4.67.3
+python-dotenv==1.1.1
+
+# UI (Demo)
+streamlit==1.55.0

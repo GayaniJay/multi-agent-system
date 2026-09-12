@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    container_name: multi-agent-system
+
+    ports:
+      - "8501:8501"
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
